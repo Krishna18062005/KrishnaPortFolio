@@ -7,7 +7,6 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
-import Events from './components/Events';;
 import Communities from './components/Communities';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
           <Skills />
           <Projects />
           <Achievements />
-          <Events />
           <Communities />
         </main>
       </div>
