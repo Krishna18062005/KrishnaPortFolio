@@ -48,7 +48,6 @@ const Header: React.FC = () => {
           <a href="#skills" className="nav-link">Skills</a>
           <a href="#projects" className="nav-link">Projects</a>
           <a href="#achievements" className="nav-link">Achievements</a>
-          <a href="#communities" className="nav-link">Communities</a>
         </motion.nav>
 
         <div className="flex items-center gap-2">
@@ -91,7 +90,6 @@ const Header: React.FC = () => {
             <a href="#skills" className="nav-link py-3" onClick={() => setIsMenuOpen(false)}>Skills</a>
             <a href="#projects" className="nav-link py-3" onClick={() => setIsMenuOpen(false)}>Projects</a>
             <a href="#achievements" className="nav-link py-3" onClick={() => setIsMenuOpen(false)}>Achievements</a>
-            <a href="#communities" className="nav-link py-3" onClick={() => setIsMenuOpen(false)}>Communities</a>
           </nav>
         </motion.div>
       )}
