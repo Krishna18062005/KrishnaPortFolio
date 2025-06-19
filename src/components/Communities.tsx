@@ -15,21 +15,21 @@ const communities = [
     id: 2,
     title: "Team Consistent Coders",
     description: "A community dedicated to daily coding commits, progress sharing, and building GitHub discipline.",
-    team: "Co-Admin: Sriswasthika A",
+    team: "Sriswasthika A",
     image: "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     id: 3,
     title: "Coding Paradise",
     description: "A national hub for discussing data structures, system design, and tech trends.",
-    team: "Co-Admin: VM Hariharan",
+    team: "VM Hariharan",
     image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     id: 4,
     title: "Job & Internship Sharing Group",
     description: "A WhatsApp-based platform sharing job leads, resume tips, and interview strategies.",
-    team: "Co-Admin: VM Hariharan",
+    team: "VM Hariharan",
     image: "https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   }
 ];
@@ -71,7 +71,7 @@ const Communities: React.FC = () => {
                 </h3>
                 <p className="text-dark-700 dark:text-dark-300 mb-4">{community.description}</p>
                 <p className="text-dark-500 dark:text-dark-400 text-sm font-medium">
-                  <span className="text-primary-600 dark:text-primary-400">Team:</span> {community.team}
+                  <span className="text-primary-600 dark:text-primary-400">Co-Admin:</span> {community.team}
                 </p>
               </div>
             </motion.div>
