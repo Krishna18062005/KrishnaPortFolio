@@ -7,9 +7,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
-import Events from './components/Events';
-import Certifications from './components/Certifications';
-import TeamBuilding from './components/TeamBuilding';
+import Events from './components/Events';;
 import Communities from './components/Communities';
 
 function App() {
@@ -25,8 +23,6 @@ function App() {
           <Projects />
           <Achievements />
           <Events />
-          <Certifications />
-          <TeamBuilding />
           <Communities />
         </main>
       </div>
