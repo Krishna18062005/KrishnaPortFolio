@@ -7,7 +7,6 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
-import Communities from './components/Communities';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Skills />
           <Projects />
           <Achievements />
-          <Communities />
         </main>
       </div>
     </ThemeProvider>
